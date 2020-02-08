@@ -1,3 +1,32 @@
 body {
     background-color: #333338;
+    color: #fdfdfd;
+}
+
+.site-header {
+    display: flex;
+}
+
+.header-logo {
+    flex: 0;
+    padding: 0 40px;
+}
+
+.header-middle {
+    flex: 1;
+}
+
+.header-items {
+    list-style: none;
+    display: flex;
+}
+
+.buy-button-small {
+    background-color: #C73041;
+    border-style: none;
+    color: #fdfdfd;
+    text-transform: uppercase;
+    padding: 12px 40px;
+    font-size: 18px;
+    line-height: 26px;
 }
