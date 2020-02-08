@@ -1,10 +1,18 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 body {
     background-color: #333338;
     color: #fdfdfd;
+    font-family: 'Inter';
 }
 
 .site-header {
     display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -19,6 +27,16 @@ body {
 .header-items {
     list-style: none;
     display: flex;
+    justify-content: flex-end;
+}
+
+.header-item {
+    padding: 30px 25px;
+    font-size: 18px;
+}
+
+.header-right {
+    padding: 30px 40px;
 }
 
 .buy-button-small {
@@ -27,6 +45,6 @@ body {
     color: #fdfdfd;
     text-transform: uppercase;
     padding: 12px 40px;
-    font-size: 18px;
     line-height: 26px;
+    font-size: 18px;
 }
