@@ -267,6 +267,10 @@
     color: #FC438A;
 }
 
+.sponsor-item {
+    text-align: center;
+}
+
 .section {
     padding-top: 90px;
     margin: 60px 80px;
