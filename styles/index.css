@@ -1,18 +1,30 @@
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
-}
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700|Work+Sans:300,400,700&display=swap');
 
 body {
     background-color: #333338;
     color: #fdfdfd;
-    font-family: 'Inter';
+    font-family: 'Work Sans';
+    margin: 0px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .site-header {
     display: flex;
     align-items: center;
+    margin: 0;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    background: rgba(51, 51, 56, 0.95);
+    backdrop-filter: blur(4px);
 }
 
 .header-logo {
@@ -44,7 +56,29 @@ body {
     border-style: none;
     color: #fdfdfd;
     text-transform: uppercase;
+    font-family: 'Quicksand';
     padding: 12px 40px;
     line-height: 26px;
     font-size: 18px;
+    box-shadow: 0px 10px 20px rgba(199, 48, 65, 0.21);
+}
+
+.footer {
+    display: flex;
+    background: #19181A;
+    height: 230px;
+    align-items: center;
+}
+
+.footer-logo {
+    flex: 0;
+    padding: 0 80px;
+    flex-grow: 1;
+}
+
+.footer-copy {
+    flex: 1;
+    text-align: right;
+    padding-right: 80px;
+    font-weight: 600px;
 }

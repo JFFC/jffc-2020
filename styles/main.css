@@ -1,0 +1,272 @@
+.content-wrapper {
+    padding: 60px 0 0 0;
+}
+
+.call-to-action {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    background: #333338;
+    border: 20px solid #C73041;
+    border-left: none;
+    border-right: none;
+    padding: 0 80px 0 80px;
+}
+
+.cta-copy {
+    flex: 0;
+    flex-grow: 1;
+}
+
+.cta-copy h3 {
+    font-size: 36px;
+    font-weight: normal;
+    color: #C76C6C;
+}
+
+.cta-copy b {
+    color: #C73041;
+}
+
+.cta-action {
+    flex: 1;
+    text-align: center;
+}
+
+.buy-tickets-large {
+    background-color: #C73041;
+    border-style: none;
+    color: #fdfdfd;
+    text-transform: uppercase;
+    padding: 12px 40px;
+    line-height: 26px;
+    font-size: 18px;
+    box-shadow: 0px 10px 20px rgba(199, 48, 65, 0.21);
+    font-family: 'Quicksand';
+}
+
+.main-content {
+}
+
+.hero {
+    grid-area: hero;
+    padding-bottom: 80px;
+}
+
+.hero-main {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+        "hero-title hero-title-image"
+        "hero-subtitle hero-subtitle";
+}
+
+.hero-title {
+    grid-area: hero-title;
+    padding-top: 20px;
+}
+
+.hero-title h1 {
+    font-family: 'Quicksand';
+    text-shadow: 0px 10px 20px rgba(255, 255, 255, 0.21);
+    font-size: 72px;
+    margin: 0;
+}
+
+.hero-title p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-title-image {
+    grid-area: hero-title-image;
+}
+
+.hero-subtitle {
+    grid-area: hero-subtitle;
+    background-color: #fdfdfd;
+    color: #382A53;
+    padding: 40px;
+    max-width: 600px;
+    margin-top: -150px;
+}
+
+.hero-subtitle h2 {
+    font-size: 36px;
+}
+
+.hero-subtitle p {
+    font-family: 'Quicksand';
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.hero-CTA {
+    text-align: center;
+    margin-top: -80px;
+}
+
+.about-jffc {
+    grid-area: about-jffc;
+}
+
+.main-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    grid-template-areas: 
+        "about-main about-image"
+        "about-image-2 about-main-2";
+}
+
+.about-header {
+    grid-area: about-header;
+    text-align: center;
+    text-shadow: 0px 10px 20px rgba(255, 255, 255, 0.21);
+    font-weight: bold;
+}
+
+.about-main {
+    grid-area: about-main;
+}
+
+.about-image {
+    grid-area: about-image;
+}
+
+.about-main-2 {
+    grid-area: about-main-2;
+}
+
+.about-image-2 {
+    grid-area: about-image-2;
+}
+
+.section-header {
+    font-family: 'Quicksand';
+    color: #E66B68;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section-content {
+    font-size: 18px;
+    color: #FDFDFD;
+}
+
+.speakers {
+    display: grid;
+    grid-area: faq;
+}
+
+.speakers-header {
+    text-align: center;
+}
+
+.speakers-main {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+
+.section-header-big {
+    font-family: 'Quicksand';
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 0px 10px 20px rgba(255, 255, 255, 0.21);
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.section-header-support {
+    color: #FC438A;
+    font-weight: 300;
+    margin: 0;
+}
+
+.faq {
+    grid-area: faq;
+}
+
+.faq-header {
+    text-align: center;
+}
+
+.faq-cta {
+    text-align: center;
+}
+
+.faq-cta h2 {
+    font-weight: normal;
+}
+
+.faq-cta b {
+    color: #FC438A;
+}
+
+.faq-main {
+    display: grid;
+    margin-top: 70px;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    grid-template-areas: 
+        "faq-1 faq-2"
+        "faq-3 faq-4";
+    margin-bottom: 70px;
+}
+
+.faq-1 {
+    grid-area: faq-1;
+}
+
+.faq-2 {
+    grid-area: faq-2;
+}
+
+.faq-3 {
+    grid-area: faq-3;
+}
+
+.faq-4 {
+    grid-area: faq-4;
+}
+
+.sponsors {
+    display: grid;
+    grid-area: faq;
+}
+
+.sponsors-header {
+    text-align: center;
+}
+
+.sponsors-cta h2 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.sponsors-main {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.sponsors-logo {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.sponsors b {
+    color: #FC438A;
+}
+
+.section {
+    margin: 40px 80px;
+}
+
+.click-link {
+    text-decoration: underline;
+}
+
