@@ -51,6 +51,7 @@
 .hero {
     grid-area: hero;
     padding-bottom: 80px;
+    margin-top: 50px !important;
 }
 
 .hero-main {
@@ -113,6 +114,7 @@
 .main-section {
     display: grid;
     grid-template-columns: auto auto;
+    align-items: center;
     column-gap: 20px;
     grid-template-areas: 
         "about-main about-image"
@@ -132,6 +134,7 @@
 
 .about-image {
     grid-area: about-image;
+    margin-bottom: -100px;
 }
 
 .about-main-2 {
@@ -235,6 +238,7 @@
 .sponsors {
     display: grid;
     grid-area: faq;
+    margin-bottom: 50px !important;
 }
 
 .sponsors-header {
@@ -263,7 +267,7 @@
 }
 
 .section {
-    margin: 40px 80px;
+    margin: 150px 80px;
 }
 
 .click-link {
