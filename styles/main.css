@@ -52,6 +52,7 @@
     grid-area: hero;
     padding-bottom: 80px;
     margin-top: 50px !important;
+    padding-top: 0px !important;
 }
 
 .hero-main {
@@ -267,7 +268,8 @@
 }
 
 .section {
-    margin: 150px 80px;
+    padding-top: 90px;
+    margin: 60px 80px;
 }
 
 .click-link {
